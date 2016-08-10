@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # poc documentation build configuration file, created by
-# sphinx-quickstart on Wed Aug 10 13:42:07 2016.
+# sphinx-quickstart on Wed Aug 10 13:54:38 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -38,7 +38,6 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-
 from recommonmark.parser import CommonMarkParser
 
 source_parsers = {
@@ -46,6 +45,7 @@ source_parsers = {
 }
 
 source_suffix = ['.rst', '.md']
+
 
 # The encoding of source files.
 #
@@ -57,7 +57,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'poc'
 copyright = u'2016, GoPro'
-author = u'GoPro INC'
+author = u'GoPro'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -87,7 +87,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -267,7 +267,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'poc.tex', u'poc Documentation',
-     u'samarth', 'manual'),
+     u'GoPro', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
