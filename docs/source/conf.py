@@ -55,9 +55,9 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'poc'
+project = u'Toolkit Name'
 copyright = u'2016, GoPro'
-author = u'GoPro'
+author = u'GoPro Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
