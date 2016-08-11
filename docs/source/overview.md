@@ -3,23 +3,23 @@
 
 ### Import the GoProTelemetry module
 
-Now you can import the `GoProTelemetry` module:
+Now you can import the `Swag` module:
 
 #### Swift
 ```swift
-import GoProTelemetry
+import GoPro
 ```
 
 #### Objective-C
 ```objc
-#import <GoProTelemetry/GoProTelemetry.h>
+#import <GoPro>
 ```
 
 ### Add the telemetry templates bundle
 
-Your app will need a special bundle that contains the templates your app will use. It is recommended to start development by copying the `GoProTelemetry.bundle` folder from the telemetry example app. This bundle contains the default gauge templates and data profiles.
+Your app will need a special bundle that contains the templates your app will use. It is recommended to start development by copying the `Swag.bundle` folder from the telemetry example app. This bundle contains the default gauge templates and data profiles.
 
-Copy `GoProTelemetry.bundle` to your app. It doesn't matter where this bundle lives as long as it is accessible at runtime and you can pass the path to the bundle when initializing telemetry (see below).
+Copy `Swag.bundle` to your app. It doesn't matter where this bundle lives as long as it is accessible at runtime and you can pass the path to the bundle when initializing telemetry (see below).
 
 For more on the telemetry template bundle as well as information on customizing your own, see [Customizing for your app](customize.html).
 
