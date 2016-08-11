@@ -4,21 +4,16 @@
    contain the root `toctree` directive.
 
 Welcome to Toolkit documentation!
-===============================
+=================================
 
 Contents:
 
 
 .. toctree::
-   :maxdepth: 2
-
-
-
-Indices and tables
-==================
-
-* :ref:`overview`
-* :ref:`example-app`
-* :ref:`customizing`
-* :ref:`search`
+   :maxdepth: 5
+   
+   overview
+   example-app
+   customizing
+   
 
