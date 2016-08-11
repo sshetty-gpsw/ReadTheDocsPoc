@@ -1,7 +1,28 @@
 ## Overview
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus lorem libero, eu efficitur magna eleifend molestie. Etiam convallis pellentesque elit, nec gravida tellus tristique ac. Aliquam dolor ipsum, fermentum in nunc condimentum, ultricies feugiat lectus. Donec at erat nisi. Praesent porta, arcu in sodales varius, mauris risus rhoncus dolor, gravida porttitor odio nulla at tellus. Proin efficitur varius lacinia. Morbi rutrum massa non molestie pellentesque. Maecenas ac dapibus arcu, ac laoreet turpis. Morbi id molestie elit, eget semper ante. Suspendisse potenti. Mauris eget sem et risus suscipit varius sit amet sit amet lorem. Integer condimentum ipsum orci, et scelerisque lacus rhoncus vitae. Sed ac urna sit amet nunc malesuada porttitor et nec nulla. Nullam quis aliquam est, in consectetur nibh. Nulla non commodo purus.
+### Import the GoProTelemetry module
+
+Now you can import the `GoProTelemetry` module:
+
+#### Swift
+```swift
+import GoProTelemetry
+```
+
+#### Objective-C
+```objc
+#import <GoProTelemetry/GoProTelemetry.h>
+```
+
+### Add the telemetry templates bundle
+
+Your app will need a special bundle that contains the templates your app will use. It is recommended to start development by copying the `GoProTelemetry.bundle` folder from the telemetry example app. This bundle contains the default gauge templates and data profiles.
+
+Copy `GoProTelemetry.bundle` to your app. It doesn't matter where this bundle lives as long as it is accessible at runtime and you can pass the path to the bundle when initializing telemetry (see below).
+
+For more on the telemetry template bundle as well as information on customizing your own, see [Customizing for your app](customize.html).
+
 
 Integer mollis, libero sit amet tincidunt ultricies, metus ex commodo tellus, nec aliquam mi turpis sit amet felis. Morbi et feugiat nunc. Donec eget sem finibus, viverra dolor nec, gravida nibh. Nunc elementum, lorem sit amet sollicitudin dapibus, lorem eros molestie nunc, fermentum tincidunt nulla urna in risus. Integer tempor felis sit amet sem elementum, in egestas nunc scelerisque. Aenean imperdiet lectus vitae nibh dignissim, vel tristique sapien lobortis. Aliquam fringilla elit nec tellus dictum posuere. Ut ullamcorper eu ex quis feugiat.
 
