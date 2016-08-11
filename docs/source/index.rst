@@ -17,11 +17,8 @@ Contents:
 Indices and tables
 ==================
 
-customizing
-example-app
-overview
-
-* :ref:`genindex`
-* :ref:`modindex`
+* :ref:`overview`
+* :ref:`example-app`
+* :ref:`customizing`
 * :ref:`search`
 
