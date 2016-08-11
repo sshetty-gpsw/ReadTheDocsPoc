@@ -21,7 +21,7 @@ Your app will need a special bundle that contains the templates your app will us
 
 Copy `Swag.bundle` to your app. It doesn't matter where this bundle lives as long as it is accessible at runtime and you can pass the path to the bundle when initializing telemetry (see below).
 
-For more on the telemetry template bundle as well as information on customizing your own, see [Customizing for your app](customize.html).
+For more on the telemetry template bundle as well as information on customizing your own, see [Customizing for your app](customizing.html).
 
 
 Integer mollis, libero sit amet tincidunt ultricies, metus ex commodo tellus, nec aliquam mi turpis sit amet felis. Morbi et feugiat nunc. Donec eget sem finibus, viverra dolor nec, gravida nibh. Nunc elementum, lorem sit amet sollicitudin dapibus, lorem eros molestie nunc, fermentum tincidunt nulla urna in risus. Integer tempor felis sit amet sem elementum, in egestas nunc scelerisque. Aenean imperdiet lectus vitae nibh dignissim, vel tristique sapien lobortis. Aliquam fringilla elit nec tellus dictum posuere. Ut ullamcorper eu ex quis feugiat.
