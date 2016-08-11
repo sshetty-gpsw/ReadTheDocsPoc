@@ -7,9 +7,7 @@ Welcome to Toolkit documentation!
 ===============================
 
 Contents:
-customizing
-example-app
-overview
+
 
 .. toctree::
    :maxdepth: 2
@@ -18,6 +16,10 @@ overview
 
 Indices and tables
 ==================
+
+customizing
+example-app
+overview
 
 * :ref:`genindex`
 * :ref:`modindex`
